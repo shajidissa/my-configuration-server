@@ -23,7 +23,10 @@ spring:
           uri: https://github.com/shajidissa/config-repo
           searchPaths: licensingservice,organizationservice,specialroutesservice,zuulservice,authenticationservice
           
-
+eureka:
+  instance:
+    hostname: localhost
+    preferIpAddress: false  
 
 #Setting logging levels
 logging:
