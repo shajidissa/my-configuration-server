@@ -21,7 +21,7 @@ spring:
         encrypt.enabled: false
         git:
           uri: https://github.com/shajidissa/config-repo
-          searchPaths: my-patient-microservice,microservice-mysql-simple,licensingservice,organizationservice,specialroutesservice,zuulservice,authenticationservice
+          searchPaths: my-crypto-microservice,my-patient-microservice,microservice-mysql-simple,licensingservice,organizationservice,specialroutesservice,zuulservice,authenticationservice
           
 eureka:
   instance:
