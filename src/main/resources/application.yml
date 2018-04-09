@@ -25,7 +25,8 @@ spring:
           
 eureka:
   instance:
-    hostname: 51.141.9.85
+    #hostname: 51.141.9.85
+    hostname: shajid.ddns.net
     preferIpAddress: false  
 
 #Setting logging levels
